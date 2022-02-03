@@ -3,6 +3,7 @@
   "description": "Ethereum Demo Dapp built on Sequence stack",
   "version": "0.1.0",
   "private": true,
+  "homepage": "demo-dapp",
   "scripts": {
     "start": "react-scripts start",
     "build": "BUILD_PATH='./dist' react-scripts build",
