@@ -1,4 +1,4 @@
-Demo Dapp
+Biconomy SDK Playground
 =========
 
 Dapp example on how to use Sequence Wallet. Covers how to connect, sign messages and send transctions.
