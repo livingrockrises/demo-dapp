@@ -2,6 +2,9 @@ import React from "react"
 import { ethers } from "ethers"
 import { sequence } from "0xsequence"
 
+import SmartAccount from "@biconomy-sdk/smart-account"
+import { LocalRelayer } from "@biconomy-sdk/relayer"
+
 import { ETHAuth, Proof } from "@0xsequence/ethauth"
 import { ERC_20_ABI } from "./constants/abi"
 
@@ -39,7 +42,7 @@ const App = () => {
     const wallet = sequence.getWallet()
 
     const connectDetails = await wallet.connect({
-      app: "Demo Dapp",
+      app: "Biconomy SDK playground",
       authorize,
       // keepWalletOpened: true,
       ...(withSettings && {
@@ -621,7 +624,7 @@ And that has made all the difference.`
       <SequenceLogo alt="logo" src={logoUrl} />
 
       <Title>
-        Demo Dapp ({network && network.length > 0 ? network : "mainnet"})
+        Biconomy SDK playground ({network && network.length > 0 ? network : "mainnet"})
       </Title>
       <Description>
         Please open your browser dev inspector to view output of functions below

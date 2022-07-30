@@ -1,6 +1,6 @@
 {
-  "short_name": "Sequence Demo Dapp",
-  "name": "Ethereum Demo Dapp built on Sequence stack",
+  "short_name": "Biconomy SDK Demo Dapp",
+  "name": "Ethereum Demo Dapp built on Biconomy SDK stack",
   "icons": [
     {
       "src": "favicon.ico",

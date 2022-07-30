@@ -1,6 +1,6 @@
 {
   "name": "demo-dapp",
-  "description": "Ethereum Demo Dapp built on Sequence stack",
+  "description": "Ethereum Demo Dapp built on Biconomy SDK stack",
   "version": "0.1.0",
   "private": true,
   "homepage": "demo-dapp",
@@ -14,8 +14,9 @@
     "unlink-sequence": "yarn unlink 0xsequence @0xsequence/abi @0xsequence/api @0xsequence/auth @0xsequence/config @0xsequence/guard @0xsequence/indexer @0xsequence/metadata @0xsequence/multicall @0xsequence/network @0xsequence/provider @0xsequence/relayer @0xsequence/transactions @0xsequence/utils @0xsequence/wallet"
   },
   "dependencies": {
-    "0xsequence": "^0.40.2",
     "@0xsequence/ethauth": "0.7.0",
+    "@biconomy-sdk/relayer": "file:../biconomy-client-sdk/packages/relayer",
+    "@biconomy-sdk/smart-account": "file:../biconomy-client-sdk/packages/smart-account",
     "@radix-ui/colors": "^0.1.8",
     "@stitches/react": "^1.2.6",
     "@testing-library/jest-dom": "^5.16.2",
@@ -25,6 +26,7 @@
     "@types/node": "^16.11.22",
     "@types/react": "^17.0.39",
     "@types/react-dom": "^17.0.11",
+    "0xsequence": "^0.40.2",
     "ethers": "^5.5.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
